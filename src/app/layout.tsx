@@ -16,8 +16,47 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "Personal Portfolio and Blog",
+  title: "İspik | Mechatronics Engineering Student & Software Developer",
+  description:
+    "I'm İspik, a mechatronics engineering student with a deep passion for building backend software and system architectures. Explore my portfolio, open-source projects, and technical blog.",
+  keywords: [
+    "İspik",
+    "Portfolio",
+    "Software Developer",
+    "Backend Developer",
+    "Mechatronics Engineering",
+    "Open Source",
+    "Discordx",
+    "Mally",
+    "TypeScript",
+    "TypeScript Developer",
+  ],
+  authors: [{ name: "İspik", url: "https://ispik.dev" }],
+  creator: "İspik",
+  openGraph: {
+    type: "website",
+    locale: "en_GB",
+    url: "https://ispik.dev",
+    siteName: "İspik's Portfolio",
+    title: "İspik | Software Developer & Mechatronics Student",
+    description:
+      "I'm İspik, a mechatronics engineering student with a deep passion for building backend software and system architectures. Explore my portfolio, open-source projects, and technical blog.",
+    images: [
+      {
+        url: "https://ispik.dev/android-chrome-512x512.png",
+        width: 512,
+        height: 512,
+        alt: "İspik's Avatar",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary",
+    title: "İspik | Software Developer",
+    description:
+      "Mechatronics engineering student & backend software developer. Explore my projects and blog.",
+    images: ["https://ispik.dev/android-chrome-512x512.png"],
+  },
 };
 
 export default function RootLayout({

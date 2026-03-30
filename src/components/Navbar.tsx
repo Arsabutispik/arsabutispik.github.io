@@ -12,6 +12,7 @@ import Link from 'next/link';
 import { useColorScheme } from '@mui/material/styles';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import LightModeIcon from '@mui/icons-material/LightMode';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Navbar() {
   const { mode, setMode } = useColorScheme();
@@ -57,6 +58,17 @@ export default function Navbar() {
               Projects
             </Button>
           </Box>
+
+          <IconButton 
+            color="inherit" 
+            component="a" 
+            href="https://github.com/Arsabutispik/arsabutispik.github.io" 
+            target="_blank"
+            rel="noopener noreferrer"
+            sx={{ mr: 1 }}
+          >
+            <GitHubIcon />
+          </IconButton>
 
           <IconButton color="inherit" onClick={toggleMode}>
             {mode === 'dark' ? <LightModeIcon /> : <DarkModeIcon />}
