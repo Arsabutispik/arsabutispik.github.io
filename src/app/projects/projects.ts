@@ -1,13 +1,13 @@
 export default [
     {
-        title: 'Mally',
+        title: 'Stoatx',
         role: 'Creator & Maintainer',
         description: 'An npm package inspired by discordx, designed specifically for building applications and bots within the Stoat ecosystem.',
         tag: 'NPM Package',
         tagColor: 'primary' as const,
         links: [
-            { label: 'NPM', variant: 'contained' as const, href: "https://npmx.dev/package/@marshmallow-stoat/mally" },
-            { label: 'Source Code', variant: 'outlined' as const, href: "https://github.com/Arsabutispik/marshmallow" },
+            { label: 'NPM', variant: 'contained' as const, href: "https://npmx.dev/package/stoatx" },
+            { label: 'Source Code', variant: 'outlined' as const, href: "https://github.com/stoatx-ts/stoatx" },
         ]
     },
     {
