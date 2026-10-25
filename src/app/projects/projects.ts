@@ -12,8 +12,8 @@ export default [
     },
     {
         title: 'Stoat',
-        role: 'Moderation Lead & Backend Contributor',
-        description: 'I volunteer as a Moderation Lead managing the community, and occasionally contribute to the backend of the platform.',
+        role: 'Backend & Frontend Contributor & Turkish Translation Maintainer',
+        description: 'I develop new features for Stoat and translate it to Turkish.',
         tag: 'Volunteer / Open Source',
         tagColor: 'secondary' as const,
         links: [
