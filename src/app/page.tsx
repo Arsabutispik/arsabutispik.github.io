@@ -40,6 +40,38 @@ export default function Home() {
         </Box>
       </Box>
 
+      <Box sx={{ mb: 12, textAlign: 'center' }}>
+        <Typography variant="h4" component="h2" gutterBottom fontWeight="bold" sx={{ mb: 4 }}>
+          My Pronouns
+        </Typography>
+      
+        <Box sx={{ maxWidth: 600, mx: 'auto' }}>
+          <Box
+            component="iframe"
+            src="https://en.pronouns.page/card/@Ispik?embed=true"
+            title="İspik's pronouns card"
+            loading="lazy"
+            referrerPolicy="no-referrer"
+            sx={{
+              border: 0,
+              width: '100%',
+              height: 400,
+              borderRadius: 2,
+              display: 'block',
+            }}
+          />
+          <Button
+            size="small"
+            href="https://en.pronouns.page/@Ispik"
+            target="_blank"
+            rel="noopener"
+            sx={{ mt: 1 }}
+          >
+            View on pronouns.page
+          </Button>
+        </Box>
+      </Box>
+
       <Typography variant="h4" component="h2" gutterBottom fontWeight="bold" sx={{mt: 8, mb: 4}}>
         Featured Projects
       </Typography>
